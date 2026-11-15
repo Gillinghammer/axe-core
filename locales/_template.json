@@ -548,7 +548,9 @@
       "pass": "Required ARIA parent role present",
       "fail": {
         "singular": "Required ARIA parent role not present: ${data.values}",
-        "plural": "Required ARIA parents role not present: ${data.values}"
+        "plural": "Required ARIA parents role not present: ${data.values}",
+        "presentationalSingular": "Required ARIA parent role not present: ${data.values}; an ancestor with role=\"${data.role}\" cannot be ignored because of ${data.attrs}",
+        "presentationalPlural": "Required ARIA parents role not present: ${data.values}; an ancestor with role=\"${data.role}\" cannot be ignored because of ${data.attrs}"
       }
     },
     "aria-roledescription": {
